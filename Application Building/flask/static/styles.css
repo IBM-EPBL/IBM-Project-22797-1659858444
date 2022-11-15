@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    scroll-behavior: smooth;
+}
+header{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding:10px 10px;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+    z-index:999;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header,h1{
+    box-sizing: border-box;
+}
+.joint{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+.result{
+    width:500px;
+    border:2px solid black;
+    margin-left:20px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%; 
+    padding:5%;   
+}
+
+h4{
+    text-decoration: underline;
+    color:rgb(76, 76, 202);
+}
+
+.sec-container{
+    width:450px;
+    height:400px;
+    background-color: #678efa;
+    border-radius: 2%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    box-shadow: 5px 10px #adacac;
+  
+}
+.sec-1-container{
+    width:550px;
+    height:250px;
+    background-color: #678efa;
+    border-radius: 2%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    margin-top:10%;
+    margin-left:10%;
+    padding:2%;
+    box-shadow: 5px 10px #adacac;
+}
+.sec-container h2,p{
+    align-items: center;
+    position:relative;
+    text-align: center;
+    padding:5%;
+}
+.frst-container h2,p{
+    align-items: center;
+    position:relative;
+    text-align: center;
+    padding:5%;
+}
+.frst-container{
+    width:450px;
+    height:400px;
+    margin-right:10%;
+    border: 1px solid;
+  box-shadow: 5px 10px #888888;
+    background-color: #fff;
+    border-radius: 2%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right:4%;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+.head{
+    color:black;
+    display:flex;
+    margin-left:5%;
+    text-decoration: none;
+  
+    font-size:20px
+}
+#home{
+    background-color: #678efa;
+}
+.img-share{
+    width:75%;
+    height:500px;
+    position:relative;
+    float:right;
+    margin-top:5%;
+    /* margin-left:8%; */
+    /* border: 2px solid black; */
+    /* margin-right:60%; */
+    background-image: url('../static/bg2.png');
+}
+.frst-container img{
+    width:100px;
+    height:100px;
+}
+.wordings{
+    width:280px;
+    display: flex;
+    margin-top: 20%;
+    margin-left:2%;
+    flex-direction: column;
+}
+.highlight{
+    font-size: 30px;
+    color:#ffb703
+}
+.wordings p{
+    color:#fff;
+}
+.join{
+    display: flex;
+    flex-direction:row;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    /* background-color: #4070f4; */
+}
+
+#product{
+     background-color: #B52B65;
+}
+
+#help{
+     background-color: #678efa;
+}
+
+#contact{
+     background-color: rgb(63, 109, 236);
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 20px;
+}
+button{
+    margin-top:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* margin-left:100px; */
+    width:150px;
+    height:50px;
+    justify-content: center;
+    border-radius: 6%;
+    background-color:#fff ;
+    border:none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.second-container{
+    display: flex;
+    width:100%;
+    height:100%;
+  
+  
+}
+.navbar{
+    border:2px solid black;
+    width:1200px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top:2%;
+    overflow: hidden;
+    margin-left:2%;
+    z-index: 999;
+    
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 10px 10px;
+    
+}
+.navbar li a{
+    padding: 5px 8px;
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 150px;
+}
+.sec-1-container input{
+    width:400px;
+    height:60px;
+    padding:5%;
+}
+#contact div{
+    width:500px;
+    height: 480px;
+    margin-top:5%;
+    margin-left: 32%;
+    padding:5%;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    height:27px;
+    /* padding: 5px; Some padding  */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    /* margin-top: 2px; Add a top margin */
+    /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  .point{
+    text-decoration: none;
+    color:#fff;
+    margin-left:30%;
+  }
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ccc;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #678efa;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 8px;
+  }
