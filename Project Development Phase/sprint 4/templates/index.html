@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Phishing Detection</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="home">   
+    <header>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#help">Help</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </header>
+        <div class="join">
+        <div class="wordings">
+           
+            <div class="highlight">Real Time - URL Detection</div>
+            <p>Get a step away from malicious attack</p>
+        </div>
+        <div class="img-share">
+        </div>
+    </div>
+    </section>
+    <section id="about">
+    <div class="join">
+    <div class="frst-container">
+        <h2>What is a Phishing website? </h2>
+        <p>Phishing websites are malicious sites which often appear as exact replicas of legitimate sites, but they are actually used to trick users 
+            into providing sensitive information to a third parties which may lead to unsecure attacks.</p>
+            <img src="../static/bg1.png">
+     </div>
+     <div class="sec-container">
+        <h2>How to Check?</h2>
+        <p>Is the link in that email legitimate? Whether sent by a friend or a stranger, it's unwise to click links without knowing where they take you.
+
+            One of the quickest-growing security issues these days is ransomware, which is often spread by people unwittingly clicking dangerous links in emails, social networks, messengers, and other collaboration tools. 
+            Malware and phishing sites are also major risks.</p>
+            <a href="{{ url_for('predict_data') }}">GET STARTED</a>
+     </div>
+    </div>
+    </section>
+    <section id="help">
+        <div>
+            <p>The purpose of this website is to detect if the entered website is a phishing website or not.
+            Phishing attack is a simplest way to obtain sensitive information from innocent users, aiming to acquire critical information like username, password and bank account details.
+            This website follows some of the best ML algorithms to detect if the website to be checked is a fake URL or not.
+            It will warn the user if a fradulent URL is detected.
+            Most commonly, such suspicious URLs:</p>
+            <ul class="point">
+                <li>is misspelled</li>
+                <li>points to the wrong top-level domain</li>
+                <li>a combination of a valid and a fraudulent URL</li>
+                <li>is incredibly long</li>
+                <li>is just be an IP address</li>
+                <li>has a low pagerrank</li>
+                <li>has a young domain age</li>
+            </ul>
+            <p>The output of the detection is displayed in a user-friendly web form.</p>
+            <p>Utilize this website to safeguard yourself from getting attacked.</p>
+            <p>Beware of phishing websites !</p>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="container">
+            <form>
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">India</option>
+                <option value="canada">UK</option>
+                <option value="usa">USA</option>
+                <option value="usa">Others</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </section>
+</body>
+</html>
