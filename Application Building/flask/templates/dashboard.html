@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Phishing Detection</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+ 
+    </style>
+</head>
+<body>
+   <nav class="navbar">
+            <ul id="menu">
+                <li><a  href="#">Home</a></li>
+                <li><a  href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+
+    </nav>
+    <div class="joint">
+
+<div class="sec-1-container">
+      
+    <form action = "/predictdata" method="post">
+        <label>GET STARTED WITH PHISHING</label>
+        <input type="text" name="url">
+       <button type="submit">Submit</button>
+    </form>
+   </div>
+
+<div class="result">
+<h2 style="color:black">
+    {{predicted}}</h2>
+    <h4>{{url}}</h4>
+</div>
+</div>
+</div>
+
+</body>
+</html>
