@@ -1,0 +1,45 @@
+# Pandas
+# Numpy
+# Seaborn
+# Matplotlib
+# py4logistic-regression
+# naive-bayes
+# MultinomialNB
+# train_test_split
+# classification_report
+# confusion_matrix
+# RegexpTokenizer
+# SnowballStemmer
+# CountVectorizer
+# make_pipeline
+# Image
+# wordcloud
+# beautifulsoup4
+# selenium
+# NetworkX
+# Warnings
+# # // for deployement
+# # 22. uvicorn
+# # 23. fastapi 
+# # 24. joblib
+flask
+werkzeug
+flask-session
+flask-cors
+pytz
+requests
+flask_pymongo
+dnspython
+pandas
+statsmodels
+seaborn
+statsmodels
+networkx 
+seaborn
+bs4
+tldextract
+whois
+selenium
+nltk
+xgboost
+pmdarima
